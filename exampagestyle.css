@@ -1,0 +1,58 @@
+html {
+	height: 80%;
+	min-height: 1100px;
+	min-width: 1600px;
+}
+
+body{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	height: 85%;
+	margin-top: 7%;
+	margin-bottom: 5%;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-position: right-bottom;
+	vertical-align: middle;
+}
+
+button {
+	margin: 10px;
+}
+
+input {
+	/*height: 85px;*/
+}
+
+div {
+	display: flex;
+	/*flex-wrap: wrap;*/	
+	flex-direction: row;
+	margin: 10px;
+	height: 60px;
+}
+
+p
+{
+	width: 50%;
+	height: 60px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+}
+
+#buttons {
+	width: 50%;
+	display:flex;
+	flex-direction: row-reverse;
+}
+
+#inputcontainer {
+	display: flex;
+	flex-direction: column;
+	height: 350px;
+}
+
+.possibleoptions:hover {
+	cursor: pointer;
+}

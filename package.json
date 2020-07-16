@@ -1,0 +1,22 @@
+{
+  "name": "cts-practice-exams",
+  "version": "1.0.0",
+  "description": "Website to help prepare you for the CTS Exam.",
+  "main": "exampagescript.js",
+  "scripts": {
+    "build": "browserify exampagescript.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidD-VP/DavidD-VP.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidD-VP/DavidD-VP.github.io/issues"
+  },
+  "homepage": "https://github.com/DavidD-VP/DavidD-VP.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
