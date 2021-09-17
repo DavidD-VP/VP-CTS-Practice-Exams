@@ -3479,11 +3479,9 @@ const ExamTitles = ["V2CE00","V2CE03", "V2CE04","V2CE05","V2CE06", "V2CE07", "V2
 
 function init()
 {
-    //console.log("init");
     var myData = localStorage['objectToPass'];
     localStorage.removeItem('objectToPass');
     var selectedexam = myData;
-    console.log(selectedexam);
 	try{
         examcompleted = false;
         examindex = ExamTitles.indexOf(selectedexam);
