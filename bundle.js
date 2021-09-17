@@ -2094,7 +2094,7 @@ QuestionOptions[0] = "Number of times a wavelength cycle occurs per second";
 QuestionOptions[1] = "Intensity or loudness of a sound in a particular medium";
 QuestionOptions[2] = "Physical distance between two points of a waveform that are exactly one cycle apart";
 QuestionOptions[3] = "Cycle when molecules move from rest through compression to rest to rarefaction";
-V3Chapter4Questions[1] = new Question("Wavelength is the _.", QuestionOptions, QuestionOptions[3]);
+V3Chapter4Questions[1] = new Question("Wavelength is the _.", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "The threshold of human hearing";
