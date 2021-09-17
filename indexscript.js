@@ -24,13 +24,13 @@ function loadExam()
 
 document.querySelectorAll(".SelectExam").forEach(item => {
 	item.addEventListener('click', event => { 
-		selectExam(item);
-		console.log(item.getElementsByTagName("INPUT")); 
+		selectExam(item); 
 		item.getElementsByTagName("INPUT")[0].checked = true;
 	})
 })
 
 takeexambutton.addEventListener('click', loadExam);
+
 
 window.addEventListener( "pageshow", function ( event ) {
   var historyTraversal = event.persisted || 

@@ -399,7 +399,7 @@ QuestionOptions[2] = "Low";
 QuestionOptions[3] = "High";
 Chapter3Questions[6] = new Question("Noise overcomes the signal after many generations of reamplification of a(n) ___ signal.", QuestionOptions, QuestionOptions[1]);
 
-V2CE03 = new Exam("V2CE03", Chapter3Questions);
+var V2CE03 = new Exam("V2CE03", Chapter3Questions);
 
 //Chapter 4
 let Chapter4Questions = [];
@@ -509,7 +509,7 @@ QuestionOptions[2] = "An electrical frequency dividing network circuit";
 QuestionOptions[3] = "A single driver reproducing the entire frequency range";
 Chapter4Questions[14] = new Question("What is a crossover?", QuestionOptions, QuestionOptions[2]);
 
-V2CE04 = new Exam("V2CE04", Chapter4Questions);
+var V2CE04 = new Exam("V2CE04", Chapter4Questions);
 
 //Chapter 5
 let Chapter5Questions = [];
@@ -619,7 +619,7 @@ QuestionOptions[2] = "L = SH x SA x SF";
 QuestionOptions[3] = "L = SH x SW x AS";
 Chapter5Questions[14] = new Question("The formula for an ANSI lumen rating is ___.", QuestionOptions, QuestionOptions[0]);
 
-V2CE05 = new Exam("V2CE05", Chapter5Questions);
+var V2CE05 = new Exam("V2CE05", Chapter5Questions);
 
  //Chapter 6
 let Chapter6Questions = [];
@@ -729,7 +729,7 @@ QuestionOptions[2] = "Firewall";
 QuestionOptions[3] = "Router";
 Chapter6Questions[14] = new Question("A ___ controls incoming and outgoing network traffic and determines what will be allowed through based on a set of security rules.", QuestionOptions, QuestionOptions[2]);
 
-V2CE06 = new Exam("V2CE06", Chapter6Questions);
+var V2CE06 = new Exam("V2CE06", Chapter6Questions);
 
 //Chapter7
 let Chapter7Questions = [];
@@ -797,7 +797,7 @@ QuestionOptions[2] = "25 inches; 19 to 21 inches";
 QuestionOptions[3] = "21 inches; 19 to 25 inches";
 Chapter7Questions[8] = new Question("The inside of a typical AV rack is ___ wide, and the outside varies from ___.", QuestionOptions, QuestionOptions[1]);
 
-V2CE07 = new Exam("V2CE07", Chapter7Questions);
+var V2CE07 = new Exam("V2CE07", Chapter7Questions);
 
 //Chapter 8
 let Chapter8Questions = [];
@@ -865,7 +865,7 @@ QuestionOptions[2] = "To create IP addresses";
 QuestionOptions[3] = "For analog devices";
 Chapter8Questions[8] = new Question("Ethernet is mainly used in control systems ___.", QuestionOptions, QuestionOptions[0]);
 
-V2CE08 = new Exam("V2CE08", Chapter8Questions);
+var V2CE08 = new Exam("V2CE08", Chapter8Questions);
 
 //Chapter9
 let Chapter9Questions = [];
@@ -933,7 +933,7 @@ QuestionOptions[2] = "65 percent";
 QuestionOptions[3] = "75 percent";
 Chapter9Questions[8] = new Question("When planning an electrical system, do not exceed ___ of the capacity of any circuit.", QuestionOptions, QuestionOptions[1]);
 
-V2CE09 = new Exam("V2CE09", Chapter9Questions);
+var V2CE09 = new Exam("V2CE09", Chapter9Questions);
 
 //Chapter10
 let Chapter10Questions = [];
@@ -987,7 +987,7 @@ QuestionOptions[2] = "MATV";
 QuestionOptions[3] = "RFTV";
 Chapter10Questions[6] = new Question("Which of the following receives broadcast programs from multiple antennas and is redistributed by coaxial or fiber-optic cable?", QuestionOptions, QuestionOptions[1]);
 
-V2CE10 = new Exam("V2CE10", Chapter10Questions);
+var V2CE10 = new Exam("V2CE10", Chapter10Questions);
 
 //Chapter11
 let Chapter11Questions = [];
@@ -1062,7 +1062,7 @@ QuestionOptions[2] = "To develop a work-around plan when these constraints will 
 QuestionOptions[3] = "To eliminate specific tasks that may be adversely impacted by constraints";
 Chapter11Questions[9] = new Question("How does the AV team use information about any identified constraints to the AV design and installation tasks?", QuestionOptions, QuestionOptions[2]);
 
-V2CE11 = new Exam("V2CE11", Chapter11Questions);
+var V2CE11 = new Exam("V2CE11", Chapter11Questions);
 
 //Chapter12
 let Chapter12Questions = [];
@@ -1193,7 +1193,7 @@ QuestionOptions[2] = "900 cubic meters";
 QuestionOptions[3] = "9000 cubic meters";
 Chapter12Questions[17] = new Question("What is the cubic footage of a space measuring 15 meters wide by 20 meters long by 3 meters high?", QuestionOptions, QuestionOptions[2]);
 
-V2CE12 = new Exam("V2CE12", Chapter12Questions);
+var V2CE12 = new Exam("V2CE12", Chapter12Questions);
 
 //Chapter13
 let Chapter13Questions = [];
@@ -1261,7 +1261,7 @@ QuestionOptions[2] = "What existing outlets are available for the AV equipment";
 QuestionOptions[3] = "All of the above";
 Chapter13Questions[8] = new Question("The AV designer is evaluating the proposed AC power supply to an AV control room. What issue(s) should the AV designer consider?", QuestionOptions, QuestionOptions[3]);
 
-V2CE13 = new Exam("V2CE13", Chapter13Questions);
+var V2CE13 = new Exam("V2CE13", Chapter13Questions);
 
 //Chapter14
 let Chapter14Questions = [];
@@ -1294,7 +1294,7 @@ QuestionOptions[2] = "Building regulations and codes often specify the type of e
 QuestionOptions[3] = "Building regulations and codes typically specify that a separate technical power system be installed for AV systems";
 Chapter14Questions[3] = new Question("How do building regulations or codes impact the AV system design?", QuestionOptions, QuestionOptions[2]);
 
-V2CE14 = new Exam("V2CE14", Chapter14Questions);
+var V2CE14 = new Exam("V2CE14", Chapter14Questions);
 
 //Chapter15
 let Chapter15Questions = [];
@@ -1341,7 +1341,7 @@ QuestionOptions[2] = "Developing more detailed AV system design documents and co
 QuestionOptions[3] = "Additional discussions of AV needs";
 Chapter15Questions[5] = new Question("Once approved, what does the AV program report become the basis for?", QuestionOptions, QuestionOptions[2]);
 
-V2CE15 = new Exam("V2CE15", Chapter15Questions);
+var V2CE15 = new Exam("V2CE15", Chapter15Questions);
 
 //Chapter16
 let Chapter16Questions = [];
@@ -1416,7 +1416,7 @@ QuestionOptions[2] = "dB = 20 log (6 meters x 12 meters)";
 QuestionOptions[3] = "db = 20 log (6 meters + 12 meters)";
 Chapter16Questions[9] = new Question("As a listener moves away from a sound source, such as a loudspeaker, the sound energy drops. According to the inverse square law, which formula would you use to determine the drop in acoustic energy if the user moved from 6 to 12 meters away from a sound source?", QuestionOptions, QuestionOptions[0]);
 
-V2CE16 = new Exam("V2CE16", Chapter16Questions);
+var V2CE16 = new Exam("V2CE16", Chapter16Questions);
 
 //Chapter17
 let Chapter17Questions = [];
@@ -1456,7 +1456,7 @@ QuestionOptions[2] = "Select the proposal that most closely matches the specific
 QuestionOptions[3] = "Select the proposal that has the best technical approach/specifications";
 Chapter17Questions[4] = new Question("Which of the following best describes the approach for evaluating proposals for products and services from potential vendors?", QuestionOptions, QuestionOptions[1]);
 
-V2CE17 = new Exam("V2CE17", Chapter17Questions);
+var V2CE17 = new Exam("V2CE17", Chapter17Questions);
 
 //Chapter18
 let Chapter18Questions = [];
@@ -1524,7 +1524,7 @@ QuestionOptions[2] = "It is provided to the client to show how the project funds
 QuestionOptions[3] = "It is used by the manager to assess the performance of individual AV installers based on the profit made on their projects.";
 Chapter18Questions[8] = new Question("How does an AV manager use a P&L statement to assess the company's performance?", QuestionOptions, QuestionOptions[1]);
 
-V2CE18 = new Exam("V2CE18", Chapter18Questions);
+var V2CE18 = new Exam("V2CE18", Chapter18Questions);
 
 //Chapter19
 let Chapter19Questions = [];
@@ -1633,7 +1633,7 @@ QuestionOptions[3] = "30 feet (9 meters)";
 Chapter19Questions[14] = new Question("How far away from the screen should you place a video projector with a lens ratio of 2.0 to create a 10-foot (3-meter) wide image?", QuestionOptions, QuestionOptions[2]);
 
 
-V2CE19 = new Exam("V2CE19", Chapter19Questions);
+var V2CE19 = new Exam("V2CE19", Chapter19Questions);
 
 //Chapter20
 let Chapter20Questions = [];
@@ -1680,7 +1680,7 @@ QuestionOptions[2] = "WBS";
 QuestionOptions[3] = "Gantt chart";
 Chapter20Questions[5] = new Question("Which of the following defines project deliverables and relates the elements of work?", QuestionOptions, QuestionOptions[2]);
 
-V2CE20 = new Exam("V2CE20", Chapter20Questions);
+var V2CE20 = new Exam("V2CE20", Chapter20Questions);
 
 //Chapter21
 let Chapter21Questions = [];
@@ -1749,7 +1749,7 @@ QuestionOptions[3] = "Operating instructions written for the AV knowledge level 
 QuestionOptions[4] = "All of the above";
 Chapter21Questions[8] = new Question("AV companies are typically required to provide documentation of the AV system after a project is complete. What is that documentation typically composed of?", QuestionOptions, QuestionOptions[4]);
 
-V2CE21 = new Exam("V2CE21", Chapter21Questions);
+var V2CE21 = new Exam("V2CE21", Chapter21Questions);
 
 //Chapter22
 let Chapter22Questions = [];
@@ -1782,7 +1782,7 @@ QuestionOptions[2] = "Replacing a projector bulb that is nearing the end of its 
 QuestionOptions[3] = "Upgrading the programming on a control system to address newly installed components";
 Chapter22Questions[3] = new Question("Which of the following is an example of preventive maintenance?", QuestionOptions, QuestionOptions[2]);
 
-V2CE22 = new Exam("V2CE22", Chapter22Questions);
+var V2CE22 = new Exam("V2CE22", Chapter22Questions);
 
 //Chapter23
 let Chapter23Questions = [];
@@ -1857,7 +1857,7 @@ QuestionOptions[2] = "Noise gate thresholds set too low";
 QuestionOptions[3] = "Source output gain set too high";
 Chapter23Questions[9] = new Question("An excessive amount of high-frequency hiss within an audio system is likely due to which of the following situations?", QuestionOptions, QuestionOptions[0]);
 
-V2CE23 = new Exam("V2CE23", Chapter23Questions);
+var V2CE23 = new Exam("V2CE23", Chapter23Questions);
 
 //Chapter24
 let Chapter24Questions = [];
@@ -1911,7 +1911,7 @@ QuestionOptions[2] = "Track AV system operation costs.";
 QuestionOptions[3] = "Track the type of program materials viewed via the AV system to ensure that inappropriate program materials are blocked.";
 Chapter24Questions[6] = new Question("Remote-monitoring services for client sites are intended to perform which of the following?", QuestionOptions, QuestionOptions[1]);
 
-V2CE24 = new Exam("V2CE24", Chapter24Questions);
+var V2CE24 = new Exam("V2CE24", Chapter24Questions);
 
 //Chapter25
 let Chapter25Questions = [];
@@ -1966,7 +1966,7 @@ QuestionOptions[2] = "The pricing of the AV system";
 QuestionOptions[3] = "How the AV system was designed";
 Chapter25Questions[6] = new Question("What should the sales discussion focus on?", QuestionOptions, QuestionOptions[0]);
 
-V2CE25 = new Exam("V2CE25", Chapter25Questions);
+var V2CE25 = new Exam("V2CE25", Chapter25Questions);
 
 //Chapter26
 let Chapter26Questions = [];
@@ -2006,7 +2006,7 @@ QuestionOptions[2] = "Feedback should be provided when a complaint is received a
 QuestionOptions[3] = "Feedback is used to identify areas that require additional training.";
 Chapter26Questions[4] = new Question("What is the main purpose of providing staff with feedback on job performance?", QuestionOptions, QuestionOptions[1]);
 
-V2CE26 = new Exam("V2CE26", Chapter26Questions);
+var V2CE26 = new Exam("V2CE26", Chapter26Questions);
 
 let ChapterExamQuestions = [Chapter3Questions, Chapter4Questions, Chapter5Questions, Chapter6Questions, Chapter7Questions, Chapter8Questions, Chapter9Questions, Chapter10Questions, Chapter11Questions,Chapter12Questions, Chapter13Questions, Chapter14Questions, Chapter15Questions, Chapter16Questions, Chapter17Questions, Chapter18Questions, Chapter19Questions, Chapter20Questions, Chapter21Questions,Chapter22Questions, Chapter23Questions, Chapter24Questions, Chapter25Questions, Chapter26Questions];
 
@@ -2014,7 +2014,7 @@ let ChapterExamQuestions = [Chapter3Questions, Chapter4Questions, Chapter5Questi
 	//ChapterExamQuestions = ChapterExamQuestions.flat(50);
 	ChapterExamQuestions = _.flattenDeep(ChapterExamQuestions);
 
-	V2CE00 = new Exam("V2CE00", ChapterExamQuestions);
+	var V2CE00 = new Exam("V2CE00", ChapterExamQuestions);
 
 //THIRD EDITION
 //Chapter 3
@@ -3449,43 +3449,45 @@ V3Chapter22Questions[9] = new Question("An excessive amount of high-frequency hi
 
 
 
-V3CE3 = new Exam("V3CE03", V3Chapter3Questions);
-V3CE4 = new Exam("V3CE04", V3Chapter4Questions);
-V3CE5 = new Exam("V3CE05", V3Chapter5Questions);
-V3CE6 = new Exam("V3CE06", V3Chapter6Questions);
-V3CE7 = new Exam("V3CE07", V3Chapter7Questions);
-V3CE8 = new Exam("V3CE08", V3Chapter8Questions);
-V3CE9 = new Exam("V3CE09", V3Chapter9Questions);
-V3CE10 = new Exam("V3CE10", V3Chapter10Questions);
-V3CE11 = new Exam("V3CE11", V3Chapter11Questions);
-V3CE12 = new Exam("V3CE12", V3Chapter12Questions);
-V3CE13 = new Exam("V3CE13", V3Chapter13Questions);
-V3CE14= new Exam("V3CE14", V3Chapter14Questions);
-V3CE15 = new Exam("V3CE15", V3Chapter15Questions);
-V3CE16 = new Exam("V3CE16", V3Chapter16Questions);
-V3CE17 = new Exam("V3CE17", V3Chapter17Questions);
-V3CE18 = new Exam("V3CE18", V3Chapter18Questions);
-V3CE19 = new Exam("V3CE19", V3Chapter19Questions);
-V3CE20 = new Exam("V3CE20", V3Chapter20Questions);
-V3CE21 = new Exam("V3CE21", V3Chapter21Questions);
-V3CE22 = new Exam("V3CE22", V3Chapter22Questions);
+var V3CE03 = new Exam("V3CE03", V3Chapter3Questions);
+var V3CE04 = new Exam("V3CE04", V3Chapter4Questions);
+var V3CE05 = new Exam("V3CE05", V3Chapter5Questions);
+var V3CE06 = new Exam("V3CE06", V3Chapter6Questions);
+var V3CE07 = new Exam("V3CE07", V3Chapter7Questions);
+var V3CE08 = new Exam("V3CE08", V3Chapter8Questions);
+var V3CE09 = new Exam("V3CE09", V3Chapter9Questions);
+var V3CE10 = new Exam("V3CE10", V3Chapter10Questions);
+var V3CE11 = new Exam("V3CE11", V3Chapter11Questions);
+var V3CE12 = new Exam("V3CE12", V3Chapter12Questions);
+var V3CE13 = new Exam("V3CE13", V3Chapter13Questions);
+var V3CE14= new Exam("V3CE14", V3Chapter14Questions);
+var V3CE15 = new Exam("V3CE15", V3Chapter15Questions);
+var V3CE16 = new Exam("V3CE16", V3Chapter16Questions);
+var V3CE17 = new Exam("V3CE17", V3Chapter17Questions);
+var V3CE18 = new Exam("V3CE18", V3Chapter18Questions);
+var V3CE19 = new Exam("V3CE19", V3Chapter19Questions);
+var V3CE20 = new Exam("V3CE20", V3Chapter20Questions);
+var V3CE21 = new Exam("V3CE21", V3Chapter21Questions);
+var V3CE22 = new Exam("V3CE22", V3Chapter22Questions);
 
 let V3ChapterExamQuestions = [V3Chapter3Questions, V3Chapter4Questions, V3Chapter5Questions, V3Chapter6Questions, V3Chapter7Questions, V3Chapter8Questions, V3Chapter9Questions, V3Chapter10Questions, V3Chapter11Questions, V3Chapter12Questions, V3Chapter13Questions, V3Chapter14Questions, V3Chapter15Questions, V3Chapter16Questions, V3Chapter17Questions, V3Chapter18Questions, V3Chapter19Questions, V3Chapter20Questions, V3Chapter21Questions, V3Chapter22Questions];
 V3ChapterExamQuestions = _.flattenDeep(V3ChapterExamQuestions);
-V3CE0 = new Exam("V3CE00", V3ChapterExamQuestions);
+var V3CE00 = new Exam("V3CE00", V3ChapterExamQuestions);
 
-const Exams = [V2CE00,V2CE03, V2CE04,V2CE05,V2CE06,V2CE07,V2CE08,V2CE09,V2CE10,V2CE11,V2CE12,V2CE13,V2CE14,V2CE15,V2CE16,V2CE17,V2CE18,V2CE19,V2CE20,V2CE21,V2CE22,V2CE23,V2CE24,V2CE25,V2CE26,V3CE0,V3CE3,V3CE3,V3CE3,V3CE4,V3CE5,V3CE6,V3CE7,V3CE8,V3CE9,V3CE10,V3CE11,V3CE12,V3CE13,V3CE14,V3CE15,V3CE16,V3CE17,V3CE18,V3CE19,V3CE20,V3CE21,V3CE22];
+const Exams = [V2CE00,V2CE03, V2CE04,V2CE05,V2CE06,V2CE07,V2CE08,V2CE09,V2CE10,V2CE11,V2CE12,V2CE13,V2CE14,V2CE15,V2CE16,V2CE17,V2CE18,V2CE19,V2CE20,V2CE21,V2CE22,V2CE23,V2CE24,V2CE25,V2CE26,V3CE00,V3CE03,V3CE04,V3CE05,V3CE06,V3CE07,V3CE08,V3CE09,V3CE10,V3CE11,V3CE12,V3CE13,V3CE14,V3CE15,V3CE16,V3CE17,V3CE18,V3CE19,V3CE20,V3CE21,V3CE22];
+const ExamTitles = ["V2CE00","V2CE03", "V2CE04","V2CE05","V2CE06", "V2CE07", "V2CE08","V2CE09","V2CE10","V2CE11","V2CE12","V2CE13","V2CE14","V2CE15","V2CE16","V2CE17","V2CE18","V2CE19","V2CE20","V2CE21","V2CE22","V2CE23","V2CE24","V2CE25","V2CE26","V3CE00","V3CE03","V3CE04","V3CE05","V3CE06","V3CE07","V3CE08","V3CE09","V3CE10","V3CE11","V3CE12","V3CE13","V3CE14","V3CE15","V3CE16","V3CE17","V3CE18","V3CE19","V3CE20","V3CE21","V3CE22"];
 
 function init()
 {
+    //console.log("init");
+    var myData = localStorage['objectToPass'];
+    localStorage.removeItem('objectToPass');
+    var selectedexam = myData;
+    console.log(selectedexam);
 	try{
-        console.log("init");
-        var myData = localStorage['objectToPass'];
-	    localStorage.removeItem('objectToPass');
-	    var selectedexam = myData;
         examcompleted = false;
-        examindex = Exams.indexOf(element => element.title === selectedexam);
-        Exams.find(element => element.title === selectedexam).takeExam();
+        examindex = ExamTitles.indexOf(selectedexam);
+        Exams[examindex].takeExam();
 	}
 	catch(err){
 		window.location.href = "index.html";
@@ -3501,7 +3503,6 @@ function updateAnswer(userAnswerindex)
 var selectoptions = document.getElementsByName("options");
 
 document.addEventListener("click", init());
-//selectoptions.forEach(item => { item.addEventListener('click', event => { updateAnswer(Number(item.id.substring(3))-1); item.getElementsByTagName("INPUT")[0].checked = true;}) });
 
 _.forEach(selectoptions, function(value){value.addEventListener('click', event => {
 			updateAnswer(Number(value.id.substring(3)-1));
@@ -3613,6 +3614,7 @@ function checkKey(event)
 	}
 	catch(err){}
 }
+
 
 window.addEventListener( "pageshow", function ( event ) {
   var historyTraversal = event.persisted || 
