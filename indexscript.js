@@ -7,14 +7,7 @@ let loadedExam = "None";
 function selectExam(item)
 {
 	selectedExam = item.id;
-	if(selectedExam.substring(2) != "0")
-	{
-		document.getElementById("CurrentExam").innerHTML = `Exam Selected: Chapter Exam ${selectedExam.substring(2)}`;
-	}
-	else
-	{
-		document.getElementById("CurrentExam").innerHTML = 'Exam Selected: Book Exam';
-	}
+	document.getElementById("CurrentExam").innerHTML = `Exam Selected: Chapter Exam ${selectedExam}`;//.substring(2)
 	takeexambutton.style.display = "inline-block";
 	
 }
