@@ -70,10 +70,7 @@ class Exam
 	takeExam()
 	{
 		this.scrambleExam();
-		for(var i = 0; i<this.questions.length-1; i++);
-		{
-			this.questions[i].scrambleQuestion();
-		}
+        this.questions.forEach(element => element.scrambleQuestion());
 		this.questionindex = 0;
 		this.loadQuestion();
 	}
@@ -272,18 +269,30 @@ class Question
 		document.body.appendChild(header);
 		document.body.appendChild(inputcontainer);
 
-		for(var i2 =0; i2 < this.options.length; i2++)
-		{
-			if(examindex != 0)
-			{
-				exampagetitle.innerHTML = "Chapter "+examindex+" Exam";
-			}
-			else
-			{
-				exampagetitle.innerHTML = "Book Exam";
-			}
+        var version;
+        if(ExamTitles[examindex].substring(1,2) === "2")
+        {
+            version = "2nd Edition";
+        }
+        else if(ExamTitles[examindex].substring(1,2) === "3")
+        {
+            version = "3rd Edition";
+        }
 
-			
+        var examnumber;
+        if(ExamTitles[examindex].substring(4) === "00")
+        {
+            examnumber = " Book";
+        }
+        else
+        {
+            examnumber = " Chapter " + ExamTitles[examindex].substring(4);
+        }
+
+        exampagetitle.innerHTML = version + examnumber + " Exam";
+
+		for(var i2 =0; i2 < this.options.length; i2++)
+		{	
 			var div = document.createElement("div");
 			var option = document.createElement("input");
 			var text = document.createTextNode(this.options[i2]);
@@ -314,7 +323,6 @@ class Question
 		let previousorder = this.options;
 		let neworder = [];
 		let indexused = [];
-
 		let repeatOptionError = true;
 		for(var i = 0; i < previousorder.length; i++)
 		{
