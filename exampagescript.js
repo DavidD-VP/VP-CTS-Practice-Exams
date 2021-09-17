@@ -345,10 +345,11 @@ class Question
         }
         for(var i = 0; i < neworder.length; i++)
         {
-            if(neworder[i] === "All of the above" && i != neworder.length-1)
+            if((neworder[i] === "All of the above" || neworder[i] === "None of the above") && i != neworder.length-1)
             {
+                var lastanswer = neworder[i];
                 neworder[i] = neworder[neworder.length-1];
-                neworder[neworder.length-1] = "All of the above";
+                neworder[neworder.length-1] = lastanswer;
             }
         }
         this.options = neworder;
