@@ -2353,7 +2353,7 @@ QuestionOptions[0] = "Three";
 QuestionOptions[1] = "Eight";
 QuestionOptions[2] = "Six";
 QuestionOptions[3] = "One";
-V3Chapter6Questions[8] = new Question("An IPv6 address uses _ groups of four hexadecimal numbers.", QuestionOptions, QuestionOptions[2]);
+V3Chapter6Questions[8] = new Question("An IPv6 address uses _ groups of four hexadecimal numbers.", QuestionOptions, QuestionOptions[1]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Computers";
@@ -2559,7 +2559,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "Voltage";
 QuestionOptions[1] = "Impedance";
 QuestionOptions[2] = "Resistance";
-QuestionOptions[3] = "Voltage";
+QuestionOptions[3] = "Watts";
 V3Chapter9Questions[3] = new Question("Power is measured in _.", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
