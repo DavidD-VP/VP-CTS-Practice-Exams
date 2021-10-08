@@ -1402,7 +1402,7 @@ QuestionOptions[0] = "DSP matrix mixer";
 QuestionOptions[1] = "Echo canceler";
 QuestionOptions[2] = "Crossover";
 QuestionOptions[3] = "Compressor";
-V2Chapter16Questions[6] = new Question("Which of the following audio processors would a system design specify to enhance the intelligibility fo a videoconferencing system?", QuestionOptions, QuestionOptions[1]);
+V2Chapter16Questions[6] = new Question("Which of the following audio processors would a system design specify to enhance the intelligibility of a videoconferencing system?", QuestionOptions, QuestionOptions[1]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "2 ohms";
@@ -1814,7 +1814,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "Examine the system to determine if the problem is simple to address and gather more information";
 QuestionOptions[1] = "Logically divide the system in half, and determine which half has the failure";
 QuestionOptions[2] = "Replace the component that has appeared to fail";
-QuestionOptions[3] = "Ask the user to further descibe the nature of the problem";
+QuestionOptions[3] = "Ask the user to further describe the nature of the problem";
 V2Chapter23Questions[2] = new Question("Once the characteristics of the system failure are clearly identified, what is the recommended next step in order to return the system to normal operation?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
@@ -2061,7 +2061,7 @@ QuestionOptions[0] = "Digital";
 QuestionOptions[1] = "Dirty";
 QuestionOptions[2] = "Analog";
 QuestionOptions[3] = "Clean";
-V3Chapter3Questions[5] = new Question("As noise is introduced along a(n) _ signal path, processing circutiry can determine whether the signal is intended to be high or low and then retransmit a solid signal without the imposed noise.", QuestionOptions, QuestionOptions[0]);
+V3Chapter3Questions[5] = new Question("As noise is introduced along a(n) _ signal path, processing circuitry can determine whether the signal is intended to be high or low and then retransmit a solid signal without the imposed noise.", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Digital";
@@ -2092,7 +2092,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "The threshold of human hearing";
 QuestionOptions[1] = "Ambient noise level";
 QuestionOptions[2] = "The threshold of pain";
-QuestionOptions[3] = "Normal listenening level";
+QuestionOptions[3] = "Normal listening level";
 V3Chapter4Questions[2] = new Question("Which of the following does 0dB SPL describe?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
@@ -2119,7 +2119,7 @@ V3Chapter4Questions[5] = new Question("Numerous persistent reflections of sound 
 QuestionOptions = [];
 QuestionOptions[0] = "Interferes with";
 QuestionOptions[1] = "Completely blocks";
-QuestionOptions[2] = "Enchances";
+QuestionOptions[2] = "Enhances";
 QuestionOptions[3] = "Is louder than";
 V3Chapter4Questions[6] = new Question("Ambient noise is sound that _ the desired message or signal.", QuestionOptions, QuestionOptions[0]);
 
@@ -2195,19 +2195,19 @@ QuestionOptions[0] = "Lumen";
 QuestionOptions[1] = "LED";
 QuestionOptions[2] = "Foot-candle";
 QuestionOptions[3] = "Lux";
-V3Chapter5Questions[1] = new Question("Generally, a _ measurement of incident light is take at a task area like a video screen.", QuestionOptions, QuestionOptions[3]);
+V3Chapter5Questions[1] = new Question("Generally, a _ measurement of incident light is taken at a task area like a video screen.", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "95 percent";
 QuestionOptions[1] = "75 percent";
 QuestionOptions[2] = "50 percent";
 QuestionOptions[3] = "25 percent";
-V3Chapter5Questions[2] = new Question("Illumination decreases by _ when the distance from a light souce is doubled.", QuestionOptions, QuestionOptions[1]);
+V3Chapter5Questions[2] = new Question("Illumination decreases by _ when the distance from a light source is doubled.", QuestionOptions, QuestionOptions[1]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Negatively affects the quality of the display image";
 QuestionOptions[1] = "Does not affect the quality of the displayed image";
-QuestionOptions[2] = "Improves the quality fo the displayed image";
+QuestionOptions[2] = "Improves the quality of the displayed image";
 QuestionOptions[3] = "Complements the quality of the displayed image";
 V3Chapter5Questions[3] = new Question("The amount of ambient light in a displayed environment _.", QuestionOptions, QuestionOptions[0]);
 
@@ -2268,7 +2268,7 @@ QuestionOptions[3] = "Determine what you want to display";
 V3Chapter5Questions[11] = new Question("When selecting a display type, what should be your first step?", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
-QuestionOptions[0] = "Higher; brigther";
+QuestionOptions[0] = "Higher; brighter";
 QuestionOptions[1] = "Lower; sharper";
 QuestionOptions[2] = "Higher; softer";
 QuestionOptions[3] = "Lower; brighter";
@@ -2297,7 +2297,7 @@ QuestionOptions[0] = "Bus";
 QuestionOptions[1] = "Star";
 QuestionOptions[2] = "Mesh";
 QuestionOptions[3] = "Ring";
-V3Chapter6Questions[0] = new Question("Which of the following newtork topologies connects devices in sequence along a linear path?", QuestionOptions, QuestionOptions[0]);
+V3Chapter6Questions[0] = new Question("Which of the following network topologies connects devices in sequence along a linear path?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "802.1x";
@@ -2339,7 +2339,7 @@ QuestionOptions[0] = "Transfer mode";
 QuestionOptions[1] = "Baseband";
 QuestionOptions[2] = "Digital subscriber line";
 QuestionOptions[3] = "MAC";
-V3Chapter6Questions[6] = new Question("A _ address is unique to every device and identifies a network's euqipment.", QuestionOptions, QuestionOptions[3]);
+V3Chapter6Questions[6] = new Question("A _ address is unique to every device and identifies a network's equipment.", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Addresses";
@@ -2357,7 +2357,7 @@ V3Chapter6Questions[8] = new Question("An IPv6 address uses _ groups of four hex
 
 QuestionOptions = [];
 QuestionOptions[0] = "Computers";
-QuestionOptions[1] = "Gatewawys";
+QuestionOptions[1] = "Gateways";
 QuestionOptions[2] = "Devices";
 QuestionOptions[3] = "Printers";
 V3Chapter6Questions[9] = new Question("Subnet masks can indicate how many _ are allowed on the network.", QuestionOptions, QuestionOptions[2]);
@@ -2439,13 +2439,13 @@ QuestionOptions = [];
 QuestionOptions[0] = "Must have power to operate";
 QuestionOptions[1] = "Mix different inputs to a signal output";
 QuestionOptions[2] = "Connect multiple inputs simultaneously to one output";
-QuestionOptions[3] = "Allow the user to select one input form a number of inputs";
+QuestionOptions[3] = "Allow the user to select one input from a number of inputs";
 V3Chapter7Questions[5] = new Question("Switchers _.", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
-QuestionOptions[0] = "Can connect any of four inputs to one or both of two outputs";
-QuestionOptions[1] = "Must have only one output connected at any given time";
-QuestionOptions[2] = "Can connect either of two inputs to any or all of four outputs";
+QuestionOptions[0] = "can connect any of four inputs to one or both of two outputs";
+QuestionOptions[1] = "must have only one output connected at any given time";
+QuestionOptions[2] = "can connect either of two inputs to any or all of four outputs";
 QuestionOptions[3] = "has effectively eight outputs";
 V3Chapter7Questions[6] = new Question("A 4 x 2 matrix switcher _.", QuestionOptions, QuestionOptions[0]);
 
@@ -2460,7 +2460,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "1 foot (305mm); 2 to 7 feet (610mm to 2.13m)";
 QuestionOptions[1] = "19 inches (482.6mm); 21 to 25 inches (533 to 635mm)";
 QuestionOptions[2] = "25 inches (635mm); 19 to 21 inches (482.6 to 533mm)";
-QuestionOptions[3] = "21 inches (533mm_; 19 to 25 inches (482.6 to 635mm)";
+QuestionOptions[3] = "21 inches (533mm); 19 to 25 inches (482.6 to 635mm)";
 V3Chapter7Questions[8] = new Question("The inside of a typical AV rack is _ wide, and the outside varies from _.", QuestionOptions, QuestionOptions[1]);
 
 //Chapter 8
@@ -2553,7 +2553,7 @@ QuestionOptions[0] = "Ohms";
 QuestionOptions[1] = "Resistance";
 QuestionOptions[2] = "Impedance";
 QuestionOptions[3] = "Dissipation";
-V3Chapter9Questions[2] = new Question("The opposition to the flow of current in an AC circuit is called.", QuestionOptions, QuestionOptions[2]);
+V3Chapter9Questions[2] = new Question("The opposition to the flow of current in an AC circuit is called _.", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Voltage";
@@ -2588,7 +2588,7 @@ QuestionOptions[0] = "Lateral feed";
 QuestionOptions[1] = "Feeders";
 QuestionOptions[2] = "Main distribution";
 QuestionOptions[3] = "Subsidiary distribution panel (panelboard)";
-V3Chapter9Questions[7] = new Question("At what point int he AC power system are the branch circuits that power wall outlets and AV equipment connected?", QuestionOptions, QuestionOptions[3]);
+V3Chapter9Questions[7] = new Question("At what point in the AC power system are the branch circuits that power wall outlets and AV equipment connected?", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "95 percent";
@@ -2657,7 +2657,7 @@ let V3Chapter11Questions = [];
 QuestionOptions = [];
 QuestionOptions[0] = "Focusing on what the person is saying";
 QuestionOptions[1] = "Summarizing and paraphrasing the person's statements";
-QuestionOptions[2] = "Asking frequenct questions to guide the conversation to the topic you are interested in discussing";
+QuestionOptions[2] = "Asking frequent questions to guide the conversation to the topic you are interested in discussing";
 QuestionOptions[3] = "Maintaining eye contact with the person";
 V3Chapter11Questions[0] = new Question("Which of the following is not considered part of active listening?", QuestionOptions, QuestionOptions[2]);
 
@@ -2673,7 +2673,7 @@ QuestionOptions[0] = "Architectural drawings of the building";
 QuestionOptions[1] = "Feedback from benchmarking site visits";
 QuestionOptions[2] = "End-user descriptions of the tasks and applications the AV system will support";
 QuestionOptions[3] = "Client/building owner preferences for AV system equipment";
-V3Chapter11Questions[2] = new Question("What is the most valuable source of infomration when defining the needs for an AV system?", QuestionOptions, QuestionOptions[2]);
+V3Chapter11Questions[2] = new Question("What is the most valuable source of information when defining the needs for an AV system?", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "To identify the specific equipment needs for the desired AV system";
@@ -2683,7 +2683,7 @@ QuestionOptions[3] = "To identify the activities that the end users will perform
 V3Chapter11Questions[3] = new Question("What is the main purpose of an initial needs analysis?", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
-QuestionOptions[0] = "Provides a starting poitn from which to determine client needs";
+QuestionOptions[0] = "Provides a starting point from which to determine client needs";
 QuestionOptions[1] = "Defines the functionality that the system elements should provide";
 QuestionOptions[2] = "Provides a standard design that can be used for most clients";
 QuestionOptions[3] = "Provides a standard design template that can be given to the building architect";
@@ -2746,7 +2746,7 @@ QuestionOptions[0] = "Document the required AV system components for a client";
 QuestionOptions[1] = "Document the AV, electrical, and mechanical systems";
 QuestionOptions[2] = "Document the information about client satisfaction with the AV system";
 QuestionOptions[3] = "Document general information about a client and the site that may be relevant for the AV design and installation tasks";
-V3Chapter12Questions[2] = new Question("What is a site survey checklist tyipcally used to do?", QuestionOptions, QuestionOptions[3]);
+V3Chapter12Questions[2] = new Question("What is a site survey checklist typically used to do?", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Reflected ceiling plan";
@@ -2802,7 +2802,7 @@ QuestionOptions[0] = "Mechanical drawing";
 QuestionOptions[1] = "Section drawing";
 QuestionOptions[2] = "Electrical drawing";
 QuestionOptions[3] = "Structural drawing";
-V3Chapter12Questions[10] = new Question("Which type of drawing provides the best infomration about the ducts and piping in a facility?", QuestionOptions, QuestionOptions[0]);
+V3Chapter12Questions[10] = new Question("Which type of drawing provides the best information about the ducts and piping in a facility?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "1";
@@ -2858,15 +2858,15 @@ let V3Chapter13Questions = [];
 
 QuestionOptions = [];
 QuestionOptions[0] = "Determine whether the audience can see and hear the presentation, and determine whether movement within the seating area will be comfortable.";
-QuestionOptions[1] = "The architect adddresses the audience area design, not the AV designer.";
+QuestionOptions[1] = "The architect addresses the audience area design, not the AV designer.";
 QuestionOptions[2] = "Determine whether the proposed audience area HVAC and lighting are adequate.";
 QuestionOptions[3] = "Ensure that the audience seating is placed between 5 feet (1.5 meters) and 25 feet (7.6 meters) from the screen.";
 V3Chapter13Questions[0] = new Question("What are the main concerns of the AV system designer regarding the audience area?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "If the room location is close enough to run cabling to the AV components";
-QuestionOptions[1] = "That the room has a clera sightline to the presenter areas";
-QuestionOptions[2] = "If the room meets the required size, poewr, and HVAC requirements, and provides other services needed for the AV system components";
+QuestionOptions[1] = "That the room has a clear sightline to the presenter areas";
+QuestionOptions[2] = "If the room meets the required size, power, and HVAC requirements, and provides other services needed for the AV system components";
 QuestionOptions[3] = "If the proposed control room design and layout meet government construction standards and requirements";
 V3Chapter13Questions[1] = new Question("What is the primary issue the AV designer should examine when evaluating the AV control or projection room area?", QuestionOptions, QuestionOptions[2]);
 
@@ -2889,21 +2889,21 @@ QuestionOptions[0] = "Projected image system contrast ratio (PISCR)";
 QuestionOptions[1] = "Analytical decision-making (ADM)";
 QuestionOptions[2] = "Basic decision-making (BDM)";
 QuestionOptions[3] = "Passive viewing";
-V3Chapter13Questions[4] = new Question("A client needs a display system for a room that will be used for inspecting detailed drawings of cimputer system networks. Which of the onlin DISCAS tools should be used to make the calculations for screen size, viewer distance, and content size?", QuestionOptions, QuestionOptions[1]);
+V3Chapter13Questions[4] = new Question("A client needs a display system for a room that will be used for inspecting detailed drawings of computer system networks. Which of the online DISCAS tools should be used to make the calculations for screen size, viewer distance, and content size?", QuestionOptions, QuestionOptions[1]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "5 feet (1.52 meters)";
 QuestionOptions[1] = "6.41 feet (1.95 meters)";
 QuestionOptions[2] = "7.11 feet (2.17 meters)";
 QuestionOptions[3] = "8.1 feet (2.47 meters)";
-V3Chapter13Questions[5] = new Question("Based on your review of the client needs, the display should consist of an HD wide-screen flat-panel display that is 4 feet hgih. How wide is the image displayed on this monitor?", QuestionOptions, QuestionOptions[2]);
+V3Chapter13Questions[5] = new Question("Based on your review of the client needs, the display should consist of an HD wide-screen flat-panel display that is 4 feet high. How wide is the image displayed on this monitor?", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Ambient noise";
 QuestionOptions[1] = "Audience sightlines";
 QuestionOptions[2] = "Ambient light";
 QuestionOptions[3] = "Projector placement";
-V3Chapter13Questions[6] = new Question("Your client is interested in installing a large projection screen in a front lobby area to display images of various projects for promotional purposes. The screen will be installed directly across from a street-level entrance with several winsows and a revolving glass door. What should be the primary initial concern of the AV designer regarding the projection system?", QuestionOptions, QuestionOptions[2]);
+V3Chapter13Questions[6] = new Question("Your client is interested in installing a large projection screen in a front lobby area to display images of various projects for promotional purposes. The screen will be installed directly across from a street-level entrance with several windows and a revolving glass door. What should be the primary initial concern of the AV designer regarding the projection system?", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Proposed projector location and angle";
@@ -2914,7 +2914,7 @@ V3Chapter13Questions[7] = new Question("What is the primary factor an AV designe
 
 QuestionOptions = [];
 QuestionOptions[0] = "How much power is necessary to operate the AV system components";
-QuestionOptions[1] = "What non-AV equipment is on the sane distribution board as the AV equipment";
+QuestionOptions[1] = "What non-AV equipment is on the same distribution board as the AV equipment";
 QuestionOptions[2] = "What existing outlets are available for the AV equipment";
 QuestionOptions[3] = "All of the above";
 V3Chapter13Questions[8] = new Question("The AV designer is evaluating the proposed AC power supply to an AV control room. What issue(s) should the AV designer consider?", QuestionOptions, QuestionOptions[3]);
@@ -2947,7 +2947,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "AV systems are not affected by building codes.";
 QuestionOptions[1] = "The layout and design of AV systems are usually strictly regulated via building regulations and codes.";
 QuestionOptions[2] = "Building regulations and codes often specify the type of electrical wiring that must be used for specific AV installations.";
-QuestionOptions[3] = "Building regulations and codes tyipcally specify that a separate technical power system be installed for AV systems.";
+QuestionOptions[3] = "Building regulations and codes typically specify that a separate technical power system be installed for AV systems.";
 V3Chapter14Questions[3] = new Question("How do building regulations or codes impact the AV system design?", QuestionOptions, QuestionOptions[2]);
 
 //Chapter 15
@@ -2962,7 +2962,7 @@ V3Chapter15Questions[0] = new Question("What is the objective of the program pha
 
 QuestionOptions = [];
 QuestionOptions[0] = "Identified needs of the end users";
-QuestionOptions[1] = "Results fo the baseline visits";
+QuestionOptions[1] = "Results of the baseline visits";
 QuestionOptions[2] = "Installation capabilities of the general contractor";
 QuestionOptions[3] = "Recommendations from the client";
 V3Chapter15Questions[1] = new Question("What should the specific AV system capabilities be based on?", QuestionOptions, QuestionOptions[0]);
@@ -2991,7 +2991,7 @@ V3Chapter15Questions[4] = new Question("Which of the following cost descriptions
 QuestionOptions = [];
 QuestionOptions[0] = "Identifying required AV system components";
 QuestionOptions[1] = "Purchasing and installing the AV system components";
-QuestionOptions[2] = "Developiong more detailed AV system design documents and cost estimates";
+QuestionOptions[2] = "Developing more detailed AV system design documents and cost estimates";
 QuestionOptions[3] = "Additional discussions of AV needs";
 V3Chapter15Questions[5] = new Question("Once approved, what does the AV concept design/program report become the basis for?", QuestionOptions, QuestionOptions[2]);
 
@@ -3010,7 +3010,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "The AV designer is concerned with only the display systems within the room.";
 QuestionOptions[1] = "The AV designer should ensure that a standard video and audio signal output is available in the control room to allow other users to connect external systems.";
 QuestionOptions[2] = "The AV designer should determine the needed monitoring, feeds, and recording requirements, and ensure that they are supported by the system design.";
-QuestionOptions[3] = "Accommodating monitoring and feed needs is the responsibility fo the AV installation team.";
+QuestionOptions[3] = "Accommodating monitoring and feed needs is the responsibility of the AV installation team.";
 V3Chapter16Questions[1] = new Question("The AV designer is creating a system for a client who also needs to route video and audio signals to various other locations at the site. At what level should the AV designer consider this need?", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
@@ -3024,7 +3024,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "Minimize the bandwidth of signals transmitted within the system";
 QuestionOptions[1] = "Maximize the bandwidth of signals transmitted within the system";
 QuestionOptions[2] = "Select components that minimize bandwidth";
-QuestionOptions[3] = "Select components the maximize the bandwidth of the entire AV system";
+QuestionOptions[3] = "Select components that maximize the bandwidth of the entire AV system";
 V3Chapter16Questions[3] = new Question("How should an AV system designer address system bandwidth?", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
@@ -3036,10 +3036,10 @@ V3Chapter16Questions[4] = new Question("What are the three main performance para
 
 QuestionOptions = [];
 QuestionOptions[0] = "The frequency response should be based on the type of applications the audio is intended to support.";
-QuestionOptions[1] = "The designer should work to acieve a frequency response as wide as possible with the project budget.";
+QuestionOptions[1] = "The designer should work to achieve a frequency response as wide as possible with the project budget.";
 QuestionOptions[2] = "The audio system output frequency response should match the frequency response of the audio source components.";
 QuestionOptions[3] = "The audio system frequency response should meet the industry standard of 20Hz to 20kHz.";
-V3Chapter16Questions[5] = new Question("How should an AV system designer determine the require frequency response of an audio system?", QuestionOptions, QuestionOptions[0]);
+V3Chapter16Questions[5] = new Question("How should an AV system designer determine the required frequency response of an audio system?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "DSP matrix mixer";
@@ -3060,14 +3060,14 @@ QuestionOptions[0] = "Direct-coupled system";
 QuestionOptions[1] = "Constant-voltage system that uses transformers";
 QuestionOptions[2] = "Series/parallel wired loudspeaker system";
 QuestionOptions[3] = "Low-impedance loudspeaker system";
-V3Chapter16Questions[8] = new Question("In audio systems where the loudspeakers are located far from the amplifier, what type of loudspeaker system is tyipcally used?", QuestionOptions, QuestionOptions[1]);
+V3Chapter16Questions[8] = new Question("In audio systems where the loudspeakers are located far from the amplifier, what type of loudspeaker system is typically used?", QuestionOptions, QuestionOptions[1]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "dB = 20log(6 meters/12 meters)";
 QuestionOptions[1] = "dB = 20log(12 meters/6 meters)";
 QuestionOptions[2] = "dB = 20log(6 meters x 12 meters)";
 QuestionOptions[3] = "dB = 20log(6 meters = 12 meters)";
-V3Chapter16Questions[9] = new Question("As a listneer moves away from a sound source, such as a loudspeaker, the sound energy drops. According to the inverse square law, which formula would you use to determine the drop in acoustic energy if the user moved from 6 to 12 meters away from a sound source?", QuestionOptions, QuestionOptions[0]);
+V3Chapter16Questions[9] = new Question("As a listener moves away from a sound source, such as a loudspeaker, the sound energy drops. According to the inverse square law, which formula would you use to determine the drop in acoustic energy if the user moved from 6 to 12 meters away from a sound source?", QuestionOptions, QuestionOptions[0]);
 
 //Chapter 17
 
@@ -3127,7 +3127,7 @@ QuestionOptions[0] = "Structural engineer";
 QuestionOptions[1] = "AV manager";
 QuestionOptions[2] = "Mechanical contractor";
 QuestionOptions[3] = "Client";
-V3Chapter17Questions[7] = new Question("Who should evaluate all mounting plans and advice the installation technician on difficult mounting situations?", QuestionOptions, QuestionOptions[0]);
+V3Chapter17Questions[7] = new Question("Who should evaluate all mounting plans and advise the installation technician on difficult mounting situations?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "The maximum weight of an equipment rack";
@@ -3158,14 +3158,14 @@ V3Chapter17Questions[11] = new Question("What is the main purpose for reviewing 
 QuestionOptions = [];
 QuestionOptions[0] = "Its broadcast domain must be segmented on every switch in the network.";
 QuestionOptions[1] = "You may be limited to whatever addressing scheme the client already uses.";
-QuestionOptions[2] = "It increases bandwidth overhead by adding an ecryption and tunneling wrapper.";
-QuestionOptions[3] = "You will need to manually set UP addresses for each device.";
+QuestionOptions[2] = "It increases bandwidth overhead by adding an encryption and tunneling wrapper.";
+QuestionOptions[3] = "You will need to manually set IP addresses for each device.";
 V3Chapter17Questions[12] = new Question("Why can implementing a VLAN be labor-intensive?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Ensure that all microphones are behind loudspeakers";
 QuestionOptions[1] = "Ensure that all microphone cables are no longer than 15 feet (4.5 meters) in length";
-QuestionOptions[2] = "Ensure that all microhpone cables are taped to the floor";
+QuestionOptions[2] = "Ensure that all microphone cables are taped to the floor";
 QuestionOptions[3] = "Mount all microphones on nonconductive stands";
 V3Chapter17Questions[13] = new Question("Which of the following objectives should the AV team target when locating microphones for a live event?", QuestionOptions, QuestionOptions[0]);
 
@@ -3197,7 +3197,7 @@ V3Chapter18Questions[1] = new Question("In the context of AV system installation
 QuestionOptions = [];
 QuestionOptions[0] = "To systematically test all components to demonstrate that the AV system operates properly";
 QuestionOptions[1] = "To allow time to \"burn in\" components to identify any potential failure points";
-QuestionOptions[2] = "To document the delviery and installation of all system components to enable final billing for system installation";
+QuestionOptions[2] = "To document the delivery and installation of all system components to enable final billing for system installation";
 QuestionOptions[3] = "To document how the user should operate the AV system";
 V3Chapter18Questions[2] = new Question("What is the objective of commissioning an AV system?", QuestionOptions, QuestionOptions[0]);
 
@@ -3205,7 +3205,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "To identify appropriate signal levels for each component";
 QuestionOptions[1] = "To document the system during the commissioning process";
 QuestionOptions[2] = "To calibrate AV system components";
-QuestionOptions[3] = "To gain an understanding of overall system operation that will aid in identifying sourecs of problems";
+QuestionOptions[3] = "To gain an understanding of overall system operation that will aid in identifying sources of problems";
 V3Chapter18Questions[3] = new Question("How does the AV technician use an understanding of system signal flow to ensure proper operation?", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
@@ -3219,7 +3219,7 @@ QuestionOptions = [];
 QuestionOptions[0] = "Shut down the system components in any order";
 QuestionOptions[1] = "Shut down system components in a specifically defined order";
 QuestionOptions[2] = "Turn off all system power at once";
-QuestionOptions[3] = "Turn off sources, then processing, the display components";
+QuestionOptions[3] = "Turn off sources, then processing, then display components";
 V3Chapter18Questions[5] = new Question("What is a proper AV system shutdown procedure?", QuestionOptions, QuestionOptions[1]);
 
 QuestionOptions = [];
@@ -3238,11 +3238,11 @@ V3Chapter18Questions[7] = new Question("Which of the following is not an objecti
 
 QuestionOptions = [];
 QuestionOptions[0] = "Manufacturer manuals for all equipment that contain instructions for its operation";
-QuestionOptions[1] = "System design and confiugration, including signal paths, to enable a technician to troubleshoot and correct any problems with the system";
-QuestionOptions[2] = "Configuration fo the control system, including DIP switch settings and IP addresses of individual components";
+QuestionOptions[1] = "System design and configuration, including signal paths, to enable a technician to troubleshoot and correct any problems with the system";
+QuestionOptions[2] = "Configuration of the control system, including DIP switch settings and IP addresses of individual components";
 QuestionOptions[3] = "Operating instructions written for the AV knowledge level of the end user";
 QuestionOptions[4] = "All of the above";
-V3Chapter18Questions[8] = new Question("AV companies are typically requried to provide documentation of the AV system after a project is complete What is that documentation typically composed of?", QuestionOptions, QuestionOptions[4]);
+V3Chapter18Questions[8] = new Question("AV companies are typically required to provide documentation of the AV system after a project is complete. What is that documentation typically composed of?", QuestionOptions, QuestionOptions[4]);
 
 let V3Chapter19Questions = [];
 
@@ -3254,7 +3254,7 @@ QuestionOptions[3] = "The amount of labor and materials the project manager used
 V3Chapter19Questions[0] = new Question("Project budget refers to which of the following?", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
-QuestionOptions[0] = "Ask the client to agree to a CO that descirbes the changes to the project agreement and the additional costs.";
+QuestionOptions[0] = "Ask the client to agree to a CO that describes the changes to the project agreement and the additional costs.";
 QuestionOptions[1] = "Perform the requested additional work to ensure that the client is satisfied";
 QuestionOptions[2] = "Never perform any work that was not agreed to within the original work contract.";
 QuestionOptions[3] = "Remove another element of the project to keep the final cost the same.";
@@ -3294,7 +3294,7 @@ let V3Chapter20Questions = [];
 
 QuestionOptions = [];
 QuestionOptions[0] = "The AV company should identify the suppliers and vendors with the lowest current prices.";
-QuestionOptions[1] = "The suplpiers and vendors often become long-term partners with the AV company in meeting the client needs.";
+QuestionOptions[1] = "The suppliers and vendors often become long-term partners with the AV company in meeting the client needs.";
 QuestionOptions[2] = "The AV company should work with only one supplier or vendor to procure the needed goods and services.";
 QuestionOptions[3] = "The AV company client will usually specify the vendors or suppliers to support the client's project.";
 V3Chapter20Questions[0] = new Question("Which of the following statements describes the typical relationship of an AV company with its suppliers and vendors?", QuestionOptions, QuestionOptions[1]);
@@ -3324,20 +3324,20 @@ QuestionOptions = [];
 QuestionOptions[0] = "Properly identifying the person taking possession of the equipment from the AV company";
 QuestionOptions[1] = "Ensuring that the renter knows how to properly operate the equipment";
 QuestionOptions[2] = "Ensuring that the renter knows how to properly transport the equipment";
-QuestionOptions[3] = "Ensuring that the reneter has hired a security guard to protect the equipment once it has arrived at the site";
+QuestionOptions[3] = "Ensuring that the renter has hired a security guard to protect the equipment once it has arrived at the site";
 V3Chapter20Questions[4] = new Question("What is a key security concern when renting AV equipment?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Take courses on state-of-the-art AV techniques at AV industry trade shows.";
 QuestionOptions[1] = "Obtain and renew a professional certification.";
-QuestionOptions[2] = "Obtain industry inifomration from a range of sources, including courses, seminars, publications, vendor presentations, and professional certification courses.";
+QuestionOptions[2] = "Obtain industry information from a range of sources, including courses, seminars, publications, vendor presentations, and professional certification courses.";
 QuestionOptions[3] = "Take college-level AV technology courses.";
 V3Chapter20Questions[5] = new Question("Which of the following best describes the recommended approach to maintaining professional skills and knowledge?", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Maintain security via the use of CCTV systems.";
-QuestionOptions[1] = "Track system usage, identify system or component failures, and idenitfy tampering.";
-QuestionOptions[2] = "Track AV system oepration costs.";
+QuestionOptions[1] = "Track system usage, identify system or component failures, and identify tampering.";
+QuestionOptions[2] = "Track AV system operation costs.";
 QuestionOptions[3] = "Track the type of program materials viewed via the AV system to ensure that inappropriate program materials are blocked.";
 V3Chapter20Questions[6] = new Question("Remote-monitoring services for client sites are intended to perform which of the following?", QuestionOptions, QuestionOptions[1]);
 
@@ -3346,7 +3346,7 @@ V3Chapter20Questions[6] = new Question("Remote-monitoring services for client si
 let V3Chapter21Questions = [];
 
 QuestionOptions = [];
-QuestionOptions[0] = "System wawrranty";
+QuestionOptions[0] = "System warranty";
 QuestionOptions[1] = "Service agreement";
 QuestionOptions[2] = "Manufacturer's warranty";
 QuestionOptions[3] = "Preventive warranty";
@@ -3380,7 +3380,7 @@ let V3Chapter22Questions = [];
 QuestionOptions = [];
 QuestionOptions[0] = "Determine the possible failure points";
 QuestionOptions[1] = "Determine which components are fully operational";
-QuestionOptions[2] = "Review a system diagram depciting interconnections and signal flow";
+QuestionOptions[2] = "Review a system diagram depicting interconnections and signal flow";
 QuestionOptions[3] = "Clearly identify the failure symptoms";
 V3Chapter22Questions[0] = new Question("What should be the first step in troubleshooting a failure in an AV system?", QuestionOptions, QuestionOptions[3]);
 
@@ -3395,8 +3395,8 @@ QuestionOptions = [];
 QuestionOptions[0] = "Examine the system to determine whether the problem is simple to address and gather more information";
 QuestionOptions[1] = "Logically divide the system in half, and determine which half has the failure";
 QuestionOptions[2] = "Replace the component that has appeared to fail";
-QuestionOptions[3] = "Ask the use to further describe the nature of the problem";
-V3Chapter22Questions[2] = new Question("Once the characteristics of the system failure are cleraly identified, what is the recommended next step required to return the system to normal operation?", QuestionOptions, QuestionOptions[0]);
+QuestionOptions[3] = "Ask the user to further describe the nature of the problem";
+V3Chapter22Questions[2] = new Question("Once the characteristics of the system failure are clearly identified, what is the recommended next step required to return the system to normal operation?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Test each of the components in the order of signal flow";
@@ -3409,22 +3409,22 @@ QuestionOptions = [];
 QuestionOptions[0] = "No, because the users usually understand system operation";
 QuestionOptions[1] = "No, because the users are not considered part of the system that has failed";
 QuestionOptions[2] = "Yes, because users often do not understand how to properly operate the system and may have changed settings or performed other actions that cause the failure";
-QuestionOptions[3] = "Yes, because user error is tyipcally considered the main cause of AV system failure";
+QuestionOptions[3] = "Yes, because user error is typically considered the main cause of AV system failure";
 V3Chapter22Questions[4] = new Question("When troubleshooting an AV system, should the AV technician consider user error as a source of the problem?", QuestionOptions, QuestionOptions[2]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Change the cable to the microphone";
 QuestionOptions[1] = "Test the microphone with a multimeter";
 QuestionOptions[2] = "Plug the microphone into a preamp and test";
-QuestionOptions[3] = "Swap out the suspect microphone with a new microphone that you know is working and see wthether the system works properly";
+QuestionOptions[3] = "Swap out the suspect microphone with a new microphone that you know is working and see whether the system works properly";
 V3Chapter22Questions[5] = new Question("What is the best method to determine whether a microphone is the source of a problem?", QuestionOptions, QuestionOptions[3]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Brightness set too high";
 QuestionOptions[1] = "Fan has failed";
-QuestionOptions[2] = "Projector not preoprly positioned";
+QuestionOptions[2] = "Projector not properly positioned";
 QuestionOptions[3] = "Air filters clogged with dust";
-V3Chapter22Questions[6] = new Question("Which of the following is not an example of an issue that can cause a video projector to voerheat?", QuestionOptions, QuestionOptions[0]);
+V3Chapter22Questions[6] = new Question("Which of the following is not an example of an issue that can cause a video projector to overheat?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
 QuestionOptions[0] = "Amplifier failure";
@@ -3436,8 +3436,8 @@ V3Chapter22Questions[7] = new Question("Which of the following is the most likel
 QuestionOptions = [];
 QuestionOptions[0] = "Adding compression to the microphone signal chain";
 QuestionOptions[1] = "Keeping the microphone as close to the sound source as possible";
-QuestionOptions[2] = "Kepeing the loudspeakers in front of and as far fro the microphones as possible";
-QuestionOptions[3] = "Turning dow or muting all unused microphones";
+QuestionOptions[2] = "Keeping the loudspeakers in front of and as far from the microphones as possible";
+QuestionOptions[3] = "Turning down or muting all unused microphones";
 V3Chapter22Questions[8] = new Question("Which of the following is not a method of addressing feedback within an audio system?", QuestionOptions, QuestionOptions[0]);
 
 QuestionOptions = [];
